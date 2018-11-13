@@ -81,15 +81,9 @@ int main ()
   volumen= (M_PI * r * r * h);
 
 
-  cout << "El area de superficie real del cilindro es:" << endl;
-  cout << area << endl;
-
-  cout << "El volumen real del cilindro es:" << endl;
-  cout << volumen << endl;
-
-
-  cout << "El volumen del cilindro es: " << endl;
-  cout << v << endl;
+  printf("\nEl area de superficie real del cilindro es: %f\n",area);
+  printf("\nEl volumen real del cilindro es: %f\n",volumen);
+  printf("\nEl volumen  del cilindro es: %f\n",v);
 
  return 0;
 }
